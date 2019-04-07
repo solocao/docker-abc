@@ -7,7 +7,7 @@ ADD . /app/
 #进入到app目录下面，类似cd
 WORKDIR /app
 #安装依赖
-RUN yarn
+RUN npm install
 #对外暴露的端口
 EXPOSE 3000
 #程序启动脚本
